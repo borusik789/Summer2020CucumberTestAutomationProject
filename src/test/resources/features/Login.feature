@@ -1,4 +1,4 @@
-@login
+@login @B20-183
 Feature: As user I want to be able to login under different roles
 # this is a comment
 #Background - test pre-condition
@@ -54,7 +54,7 @@ Feature: As user I want to be able to login under different roles
     When user logs in with "storemanager85" username and "wrong" password
     Then user verifies that "Invalid user name or password." message is displayed
 
-  @negative_scenario_outline @B20-182 @B20-183
+  @negative_scenario_outline @B20-182
   Scenario Outline: Invalid login with <username> and <password>
     When user logs in with "<username>" username and "<password>" password
     Then user verifies that "<message>" message is displayed
