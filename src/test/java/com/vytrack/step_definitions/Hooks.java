@@ -30,10 +30,10 @@ public class Hooks {
         Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
-    @BeforeStep
-    public void beforeStep(){
-        System.out.println("I'm before step");
-    }
+//    @BeforeStep
+//    public void beforeStep(){
+//        System.out.println("I'm before step");
+//    }
 //    this hook will run only before scenarios with a tag @db
 
     /**
