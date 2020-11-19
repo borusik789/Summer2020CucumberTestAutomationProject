@@ -30,7 +30,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <parallel>classes</parallel>
-                    <threadCount>2</threadCount>
+                    <threadCount>3</threadCount>
                     <forkCount>2C</forkCount>
                     <perCoreThreadCount>false</perCoreThreadCount>
                     <includes>
